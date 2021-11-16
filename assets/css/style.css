@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 !important;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.timeline {
+	position: relative;
+	margin: 50px auto;
+	padding: 40px 0;
+	width: 1000px;
+}
+
+.timeline:before {
+	content: "";
+	position: absolute;
+	left: 50%;
+	width: 2px;
+	height: 80%;
+	background-color: #707070;
+}
+
+.timeline ul {
+	margin: 0;
+	padding: 0;
+}
+
+.timeline ul li {
+	line-height: normal;
+	position: relative;
+	width: 50%;
+	/* padding: 20px 40px; */
+	margin-bottom: 50px;
+	box-sizing: border-box;
+	list-style: none;
+}
+
+.timeline ul li .timeline-content h3 {
+	
+font-size: 24px;
+}
+
+.timeline ul li .timeline-number h2 {
+	
+font-size: 58px;
+}
+
+.timeline ul li:nth-child(1),
+.timeline ul li:nth-child(2),
+.timeline ul li:nth-child(3),
+.timeline ul li:nth-child(4),
+.timeline ul li:nth-child(5),
+.timeline ul li:nth-child(6) {
+	float: left;
+	text-align: right;
+	clear: both;
+	padding-right: 8%;
+}
+
+.timeline ul li:nth-child(7),
+.timeline ul li:nth-child(8),
+.timeline ul li:nth-child(9) {
+	float: right;
+	text-align: left;
+	clear: both;
+	padding-left: 8%;
+}
+
+.timeline ul li:nth-child(1) .timeline-content:before,
+.timeline ul li:nth-child(2) .timeline-content:before,
+.timeline ul li:nth-child(3) .timeline-content:before,
+.timeline ul li:nth-child(4) .timeline-content:before,
+.timeline ul li:nth-child(5) .timeline-content:before,
+.timeline ul li:nth-child(6) .timeline-content:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: -6px;
+	width: 10px;
+	height: 100%;
+	background-color: #ddd;
+	border-radius: 0;
+}
+
+.timeline ul li:nth-child(7) .timeline-content:before,
+.timeline ul li:nth-child(8) .timeline-content:before,
+.timeline ul li:nth-child(9) .timeline-content:before {
+	content: "";
+	position: absolute;
+	top: -2px;
+	left: -4px;
+	width: 10px;
+	height: 100%;
+	background-color: #ddd;
+	border-radius: 0;
+}
+
+.timeline ul li:nth-child(1):before,
+.timeline ul li:nth-child(2):before,
+.timeline ul li:nth-child(3):before,
+.timeline ul li:nth-child(4):before,
+.timeline ul li:nth-child(5):before,
+.timeline ul li:nth-child(6):before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	right: -6px;
+	width: 10px;
+	height: 10px;
+	background-color: #fff;
+	border-radius: 0;
+}
+
+.timeline ul li:nth-child(1):after,
+.timeline ul li:nth-child(2):after,
+.timeline ul li:nth-child(3):after,
+.timeline ul li:nth-child(4):after,
+.timeline ul li:nth-child(5):after,
+.timeline ul li:nth-child(6):after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	bottom: -2px;
+	right: -6px;
+	box-shadow: 0 0 0px 3px #fff;
+}
+
+.timeline ul li:nth-child(7):before,
+.timeline ul li:nth-child(8):before,
+.timeline ul li:nth-child(9):before {
+	content: "";
+	position: absolute;
+	bottom: -4px;
+	left: -4px;
+	width: 10px;
+	height: 10px;
+	border-radius: 0;
+	background-color: #ddd;
+	box-shadow: inset 3px 0 0px 5px #fff;
+}
+
+.timeline ul li:nth-child(7):after,
+.timeline ul li:nth-child(8):after,
+.timeline ul li:nth-child(9):after {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: 0;
+	box-shadow: 0 0 0px 3px #fff;
+}
+
+.timeline ul li:nth-child(1) .timeline-number,
+.timeline ul li:nth-child(2) .timeline-number,
+.timeline ul li:nth-child(3) .timeline-number,
+.timeline ul li:nth-child(4) .timeline-number,
+.timeline ul li:nth-child(5) .timeline-number,
+.timeline ul li:nth-child(6) .timeline-number {
+	position: absolute;
+	top: 40%;
+	right: -40%;
+	margin: 0;
+	color: #000;
+	transform: translate(-50%, -50%);
+}
+
+.timeline ul li:nth-child(7) .timeline-number,
+.timeline ul li:nth-child(8) .timeline-number,
+.timeline ul li:nth-child(9) .timeline-number {
+	position: absolute;
+	top: 40%;
+	left: -25%;
+	margin: 0;
+	color: #000;
+	transform: translate(-50%, -50%);
+}
