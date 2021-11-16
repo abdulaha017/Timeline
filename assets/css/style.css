@@ -42,13 +42,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .timeline ul li .timeline-content h3 {
-	
-font-size: 24px;
+	font-size: 24px;
 }
 
-.timeline ul li .timeline-number h2 {
-	
-font-size: 58px;
+.timeline ul li .timeline-number h2 {	
+	font-size: 58px;
+	color: #FB9294;
 }
 
 .timeline ul li:nth-child(1),
@@ -84,7 +83,7 @@ font-size: 58px;
 	right: -6px;
 	width: 10px;
 	height: 100%;
-	background-color: #ddd;
+	background-color: #FB9294;
 	border-radius: 0;
 }
 
@@ -97,7 +96,7 @@ font-size: 58px;
 	left: -4px;
 	width: 10px;
 	height: 100%;
-	background-color: #ddd;
+	background-color: #FB9294;
 	border-radius: 0;
 }
 
@@ -179,3 +178,32 @@ font-size: 58px;
 	color: #000;
 	transform: translate(-50%, -50%);
 }
+
+.inslide-arrow::before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.1em solid #FB9294;
+    border-top: 0.1em solid #FB9294;
+    transform: rotate(225deg);
+    margin-right: 0.5em;
+    top: 40%;
+    right: 3%;
+}
+
+.inslide-arrow::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 0.8em;
+    height: 0.8em;
+    border-right: 0.2em solid #FB9294;
+    border-top: 0.2em solid #FB9294;
+    transform: rotate(225deg);
+    margin-right: 0.5em;
+    top: 28%;
+    right: 3%;
+}
+
