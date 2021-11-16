@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .timeline ul li:nth-child(2) .inslide-arrow::before {
-    top: 46%;
+    top: 45%;
     right: 3%;
 }
 
@@ -264,3 +264,340 @@ h1, h2, h3, h4, h5, h6 {
     left: 6%;
     transform: rotate(45deg);
 }
+
+
+/*
+	Responsive
+*/
+
+@media screen and (max-width:1023px) {
+
+.timeline {
+    width: 765px;
+}
+
+.timeline ul li .timeline-content h3 {
+    font-size: 18px;
+}
+
+.timeline ul li .timeline-number h2 {
+    font-size: 48px;
+}
+
+.timeline ul li:nth-child(1) .timeline-number,
+.timeline ul li:nth-child(2) .timeline-number,
+.timeline ul li:nth-child(3) .timeline-number,
+.timeline ul li:nth-child(4) .timeline-number,
+.timeline ul li:nth-child(5) .timeline-number,
+.timeline ul li:nth-child(6) .timeline-number {
+    right: -36%;
+}
+
+.timeline ul li:nth-child(7) .timeline-number,
+.timeline ul li:nth-child(8) .timeline-number,
+.timeline ul li:nth-child(9) .timeline-number {
+    left: -22%;
+}
+
+.inslide-arrow::before {
+    top: 44%;
+}
+.timeline ul li:nth-child(2) .inslide-arrow::before {
+    top: 47%;
+}
+.timeline ul li:nth-child(3) .inslide-arrow::before {
+    top: 46%;
+}
+.timeline ul li:nth-child(7) .inslide-arrow::before {
+    top: 45%;
+}
+.timeline ul li:nth-child(8) .inslide-arrow::before {
+    top: 45%;
+}
+.timeline ul li:nth-child(9) .inslide-arrow::before {
+    top: 45%;
+}
+
+
+}
+
+
+@media screen and (max-width:767px) {
+
+
+.timeline {
+    width: 94%;
+}
+
+.timeline:before {
+    content: none;
+}
+
+.timeline ul li {
+    float: unset !important;
+    text-align: center !important;
+    width: 100%;
+    position: relative;
+    padding: 70px 0 0 !important;
+}
+
+.timeline-number {
+    top: 0 !important;
+    left: 50% !important;
+}
+
+.timeline ul li::before {
+    content: none !important;
+}
+
+.timeline ul li::after {
+    content: none !important;
+}
+
+.timeline ul li .timeline-content:before {
+    content: none !important;
+}
+
+
+
+.inslide-arrow::before {
+    top: 41%;
+    left: 50.5%;
+    transform: rotate(135deg);
+}
+
+.inslide-arrow::after {
+    transform: rotate(135deg);
+    top: 40%;
+    left: 49%;
+}
+
+.timeline ul li:nth-child(2) .inslide-arrow::before {
+    top: 28%;
+}
+
+.timeline ul li:nth-child(2) .inslide-arrow::after {
+    top: 28%;
+    right: 3%;
+}
+
+.timeline ul li:nth-child(3) .inslide-arrow::before {
+    top: 28%;
+}
+
+.timeline ul li:nth-child(3) .inslide-arrow::after {
+    top: 28%;
+    right: 3%;
+}
+
+
+.timeline ul li:nth-child(6) .inslide-arrow::before {
+    top: 28%;
+}
+.timeline ul li:nth-child(6) .inslide-arrow::after {
+    top: 28%;
+}
+
+.timeline ul li:nth-child(7) .inslide-arrow::before {
+    top: 28%;
+    left: 50%;
+    transform: rotate(135deg);
+}
+.timeline ul li:nth-child(7) .inslide-arrow::after {
+    top: 28%;
+    left: 48.8%;
+    transform: rotate(135deg);
+}
+
+.timeline ul li:nth-child(8) .inslide-arrow::before {
+    top: 28%;
+    left: 50%;
+    transform: rotate(135deg);
+}
+.timeline ul li:nth-child(8) .inslide-arrow::after {
+    top: 28%;
+    left: 48.8%;
+    transform: rotate(135deg);
+}
+
+.timeline ul li:nth-child(9) .inslide-arrow::before {
+    top: 28%;
+    left: 50%;
+    transform: rotate(135deg);
+}
+.timeline ul li:nth-child(9) .inslide-arrow::after {
+    top: 28%;
+    left: 48.8%;
+    transform: rotate(135deg);
+}
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width:410px) {
+
+.inslide-arrow::before {
+    left: 50%;
+}
+
+/*.inslide-arrow::before {
+    top: 41%;
+    left: 50.5%;
+    transform: rotate(135deg);
+}
+
+.inslide-arrow::after {
+    transform: rotate(135deg);
+    top: 40%;
+    left: 49%;
+}
+
+.timeline ul li:nth-child(2) .inslide-arrow::before {
+    top: 28%;
+}
+
+.timeline ul li:nth-child(2) .inslide-arrow::after {
+    top: 28%;
+    right: 3%;
+}
+
+.timeline ul li:nth-child(3) .inslide-arrow::before {
+    top: 28%;
+}
+
+.timeline ul li:nth-child(3) .inslide-arrow::after {
+    top: 28%;
+    right: 3%;
+}
+
+
+.timeline ul li:nth-child(6) .inslide-arrow::before {
+    top: 28%;
+}
+.timeline ul li:nth-child(6) .inslide-arrow::after {
+    top: 28%;
+}
+
+.timeline ul li:nth-child(7) .inslide-arrow::before {
+    top: 28%;
+    left: 50%;
+    transform: rotate(135deg);
+}
+.timeline ul li:nth-child(7) .inslide-arrow::after {
+    top: 28%;
+    left: 48.8%;
+    transform: rotate(135deg);
+}
+
+.timeline ul li:nth-child(8) .inslide-arrow::before {
+    top: 28%;
+    left: 50%;
+    transform: rotate(135deg);
+}
+.timeline ul li:nth-child(8) .inslide-arrow::after {
+    top: 28%;
+    left: 48.8%;
+    transform: rotate(135deg);
+}
+
+.timeline ul li:nth-child(9) .inslide-arrow::before {
+    top: 28%;
+    left: 50%;
+    transform: rotate(135deg);
+}
+.timeline ul li:nth-child(9) .inslide-arrow::after {
+    top: 28%;
+    left: 48.8%;
+    transform: rotate(135deg);
+}*/
+
+
+}
+
+/*
+
+
+@media screen and (max-width:480px) {
+
+.inslide-arrow::before {
+    top: 41%;
+    left: 50.5%;
+    transform: rotate(135deg);
+}
+
+.inslide-arrow::after {
+    transform: rotate(135deg);
+    top: 40%;
+    left: 49%;
+}
+
+.timeline ul li:nth-child(2) .inslide-arrow::before {
+    top: 28%;
+}
+
+.timeline ul li:nth-child(2) .inslide-arrow::after {
+    top: 28%;
+    right: 3%;
+}
+
+.timeline ul li:nth-child(3) .inslide-arrow::before {
+    top: 28%;
+}
+
+.timeline ul li:nth-child(3) .inslide-arrow::after {
+    top: 28%;
+    right: 3%;
+}
+
+
+.timeline ul li:nth-child(6) .inslide-arrow::before {
+    top: 28%;
+}
+.timeline ul li:nth-child(6) .inslide-arrow::after {
+    top: 28%;
+}
+
+.timeline ul li:nth-child(7) .inslide-arrow::before {
+    top: 28%;
+    left: 50%;
+    transform: rotate(135deg);
+}
+.timeline ul li:nth-child(7) .inslide-arrow::after {
+    top: 28%;
+    left: 48.8%;
+    transform: rotate(135deg);
+}
+
+.timeline ul li:nth-child(8) .inslide-arrow::before {
+    top: 28%;
+    left: 50%;
+    transform: rotate(135deg);
+}
+.timeline ul li:nth-child(8) .inslide-arrow::after {
+    top: 28%;
+    left: 48.8%;
+    transform: rotate(135deg);
+}
+
+.timeline ul li:nth-child(9) .inslide-arrow::before {
+    top: 28%;
+    left: 50%;
+    transform: rotate(135deg);
+}
+.timeline ul li:nth-child(9) .inslide-arrow::after {
+    top: 28%;
+    left: 48.8%;
+    transform: rotate(135deg);
+}
+
+
+}
+*/
+
