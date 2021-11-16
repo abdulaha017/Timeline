@@ -50,6 +50,12 @@ h1, h2, h3, h4, h5, h6 {
 	color: #FB9294;
 }
 
+
+.timeline ul li:nth-child(7) .timeline-number h2,
+.timeline ul li:nth-child(8) .timeline-number h2,
+.timeline ul li:nth-child(9) .timeline-number h2 {	
+	color: #FDA724;
+}
 .timeline ul li:nth-child(1),
 .timeline ul li:nth-child(2),
 .timeline ul li:nth-child(3),
@@ -96,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: -4px;
 	width: 10px;
 	height: 100%;
-	background-color: #FB9294;
+	background-color: #FDA724;
 	border-radius: 0;
 }
 
@@ -206,6 +212,21 @@ h1, h2, h3, h4, h5, h6 {
     top: 28%;
     right: 3%;
 }
+
+.timeline ul li:nth-child(7) .inslide-arrow::before,
+.timeline ul li:nth-child(8) .inslide-arrow::before,
+.timeline ul li:nth-child(9) .inslide-arrow::before {
+    border-right: 0.1em solid #FDA724;
+    border-top: 0.1em solid #FDA724;
+}
+
+.timeline ul li:nth-child(7) .inslide-arrow::after,
+.timeline ul li:nth-child(8) .inslide-arrow::after,
+.timeline ul li:nth-child(9) .inslide-arrow::after {
+    border-right: 0.2em solid #FDA724;
+    border-top: 0.2em solid #FDA724;
+}
+
 
 .timeline ul li:nth-child(2) .inslide-arrow::before {
     top: 45%;
