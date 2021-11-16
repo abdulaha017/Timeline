@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	left: 50%;
 	width: 2px;
-	height: 80%;
+	height: 84%;
 	background-color: #707070;
 }
 
@@ -207,3 +207,60 @@ h1, h2, h3, h4, h5, h6 {
     right: 3%;
 }
 
+.timeline ul li:nth-child(2) .inslide-arrow::before {
+    top: 46%;
+    right: 3%;
+}
+
+.timeline ul li:nth-child(2) .inslide-arrow::after {
+    top: 41%;
+    right: 3%;
+}
+
+.timeline ul li:nth-child(3) .inslide-arrow::before {
+    top: 44%;
+    right: 3%;
+}
+
+.timeline ul li:nth-child(3) .inslide-arrow::after {
+    top: 37%;
+    right: 3%;
+}
+
+
+
+.timeline ul li:nth-child(7) .inslide-arrow::before {
+    top: 44%;
+    left: 6%;
+    transform: rotate(45deg);
+}
+
+.timeline ul li:nth-child(7) .inslide-arrow::after {
+    top: 37%;
+    left: 6%;
+    transform: rotate(45deg);
+}
+
+.timeline ul li:nth-child(8) .inslide-arrow::before {
+    top: 44%;
+    left: 6%;
+    transform: rotate(45deg);
+}
+
+.timeline ul li:nth-child(8) .inslide-arrow::after {
+    top: 40%;
+    left: 6%;
+    transform: rotate(45deg);
+}
+
+.timeline ul li:nth-child(9) .inslide-arrow::before {
+    top: 44%;
+    left: 6%;
+    transform: rotate(45deg);
+}
+
+.timeline ul li:nth-child(9) .inslide-arrow::after {
+    top: 37%;
+    left: 6%;
+    transform: rotate(45deg);
+}
